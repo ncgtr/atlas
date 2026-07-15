@@ -16,7 +16,7 @@ The purpose of the application is to have quickly accessible AI straight from yo
 <img width="194" height="74" alt="image" src="https://github.com/user-attachments/assets/b422056c-28ee-4f42-b26d-ef2682f1734d" />
 
 ## Framework
-The app is built with Flutter, with Windows as the only target platform. Plugins such as `tray_manager`, `provider`, `flutter_markdown` and `flutter_acrylic` have been used. Thanks to Flutter, we achieve aesthetically pleasing visuals, fluid animations and overall an app with high performance. The fonts `Google Sans` and `JetBrains Mono` have been used for the interface. The plugin `flutter_markdown` implements support for text formatting (**bold**, *italic*, etc.) which LLMs generally include in their responses.
+The app is built with Flutter, with Windows as the only target platform. Plugins such as `tray_manager`, `provider`, `flutter_markdown` and `flutter_acrylic` have been used. Thanks to Flutter, we achieve aesthetically pleasing visuals, fluid animations and overall an app with high performance. The fonts `Google Sans` and `JetBrains Mono` have been used for the interface. The plugin `flutter_markdown` implements support for text formatting (**bold**, *italic*, ```code blocks``` etc.) which models generally include in their responses.
 
 ## The AI Backend
 The LLM used for this project, as seen in the images, is **Meta's Llama Scout 4**. The API requests are done through the service **Groq**.
