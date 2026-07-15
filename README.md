@@ -20,7 +20,7 @@ The app is built with Flutter, with Windows as the only target platform. Plugins
 
 ## The AI Backend
 The LLM used for this project, as seen in the images, is **Meta's Llama Scout 4**. The API requests are done through the service **Groq**.
-- **You will need to add your own Groq API Key into the source if you want to run the application yourself.**
+- **You will need your own Groq API Key if you wish to run the application.**
 
 <img width="337" height="211" alt="image" src="https://github.com/user-attachments/assets/2aa484e7-bd84-4b26-980a-ecb3e933557c" />
 
